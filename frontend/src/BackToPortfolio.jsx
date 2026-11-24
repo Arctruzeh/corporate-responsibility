@@ -1,5 +1,3 @@
-import React from 'react';
-
 const BackToPortfolio = () => (
     <a
         href="https://ajlato.com/projects/corporate-responsibility"
@@ -18,8 +16,8 @@ const BackToPortfolio = () => (
             boxShadow: '0 2px 5px rgba(0,0,0,0.2)',
             transition: 'transform 0.2s'
         }}
-        onMouseEnter={(e) => e.target.style.transform = 'scale(1.05)'}
-        onMouseLeave={(e) => e.target.style.transform = 'scale(1)'}
+        onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+        onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
     >
         ← Back to Portfolio
     </a>

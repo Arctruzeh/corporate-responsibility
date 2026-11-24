@@ -1,0 +1,15 @@
+{
+  "short_name": "Corporate Resp.",
+  "name": "Corporate Responsibility Generator",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1c2431",
+  "background_color": "#1c2431"
+}
